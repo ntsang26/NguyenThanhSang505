@@ -11,5 +11,6 @@ namespace NguyenThanhSang505.Data
     }
 
     public DbSet<CompanyNTS505> CompanyNTS505s { get; set; }
+    public DbSet<NTS505> NTS505s {get;set;}
   }
 }
